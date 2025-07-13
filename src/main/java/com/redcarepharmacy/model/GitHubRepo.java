@@ -2,11 +2,12 @@ package com.redcarepharmacy.model;
 
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDateTime;
 
-
+@NoArgsConstructor
 public class GitHubRepo {
     @Getter
     @Setter
@@ -32,8 +33,5 @@ public class GitHubRepo {
     @Setter
     private String language;
 
-    public GitHubRepo(){
-
-    }
 }
 
