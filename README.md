@@ -40,4 +40,4 @@ http://localhost:8080/api/repos/score?language=Java&createdAfter=2024-01-01&page
 ```
 - The url will never result in an empty results so no error handling was done for the lack of time.
 - The app queries github for every request but as we are limited by github's rate limiter and max page, I assumed that's the right behavior
-- The score equation is: double score = stars * 2.0 + forks + freshnessScore;
+- The score equation is: score = stars * 2.0 + forks + freshnessScore;
