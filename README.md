@@ -1,4 +1,4 @@
-# GitHub Repo Scorer
+# GitHub Repo Score
 
 A Java application that fetches GitHub repositories based on language and creation date, and assigns a popularity score using stars, forks, and recency of updates.
 
