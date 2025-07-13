@@ -34,10 +34,10 @@ mvn clean install
 ```
 
 ## Assumptions:
-- An example for the entry point to the application: 
+- The url of the entry point of the application: 
 ```
 http://localhost:8080/api/repos/score?language=Java&createdAfter=2024-01-01&page=1&perPage=100
 ```
-- The app assumes that the url will never result in an empty results so no error handling was done for the lack of time.
+- The url will never result in an empty results so no error handling was done for the lack of time.
 - The app queries github for every request but as we are limited by github's rate limiter and max page, I assumed that's the right behavior
 - The score equation is: double score = stars * 2.0 + forks + freshnessScore;
