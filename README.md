@@ -22,8 +22,8 @@ A Java application that fetches GitHub repositories based on language and creati
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/github-repo-scorer.git
-cd github-repo-scorer
+git clone git@github.com:RaghdaElgharably/github-repos-score.git
+cd github-repo-score
 ```
 ## Build and Run
 export GITHUB_TOKEN=your_personal_access_token
