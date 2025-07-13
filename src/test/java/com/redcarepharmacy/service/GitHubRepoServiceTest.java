@@ -1,7 +1,6 @@
-package com.redcarepharmacy;
+package com.redcarepharmacy.service;
 
 import com.redcarepharmacy.model.GitHubRepo;
-import com.redcarepharmacy.service.GitHubRepoService;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;

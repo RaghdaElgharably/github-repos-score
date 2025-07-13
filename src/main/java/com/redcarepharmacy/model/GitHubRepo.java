@@ -32,12 +32,6 @@ public class GitHubRepo {
     @Setter
     private String language;
 
-    public GitHubRepo(String name, int stars, int forks, LocalDateTime updatedAt) {
-        this.name = name;
-        this.stargazersCount = stars;
-        this.forksCount = forks;
-        this.updatedAt = updatedAt;
-    }
     public GitHubRepo(){
 
     }

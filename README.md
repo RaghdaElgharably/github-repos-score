@@ -15,7 +15,6 @@ A Java application that fetches GitHub repositories based on language and creati
 
 - Java 11 or higher
 - Maven 3.6+
-- GitHub Personal Access Token (optional, for higher rate limits)
 
 ### Setup
 
@@ -25,8 +24,6 @@ A Java application that fetches GitHub repositories based on language and creati
 git clone git@github.com:RaghdaElgharably/github-repos-score.git
 cd github-repo-score
 ```
-## Build and Run
-export GITHUB_TOKEN=your_personal_access_token
 
 ### To build the project:
 ```
@@ -39,5 +36,6 @@ mvn clean install
 http://localhost:8080/api/repos/score?language=Java&createdAfter=2024-01-01&page=1&perPage=100
 ```
 - The url will never result in an empty results so no error handling was done for the lack of time.
-- The app queries github for every request but as we are limited by github's rate limiter and max page, I assumed that's the right behavior
+- The app queries github for every possible request but as we are limited by github's rate limiter and max page, I assumed that's the right behavior.
+  - as github only allows 1000, those are the records that the app scores and ranks.
 - The score equation is: score = stars * 2.0 + forks + freshnessScore;
