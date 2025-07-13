@@ -1,8 +1,8 @@
-package com.redcareapotheke.controller;
+package com.redcarepharmacy.controller;
 
 
-import com.redcareapotheke.service.GitHubRepoService;
-import com.redcareapotheke.model.GitHubRepo;
+import com.redcarepharmacy.service.GitHubRepoService;
+import com.redcarepharmacy.model.GitHubRepo;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

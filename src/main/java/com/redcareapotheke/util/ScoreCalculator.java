@@ -1,6 +1,6 @@
-package com.redcareapotheke.util;
+package com.redcarepharmacy.util;
 
-import com.redcareapotheke.model.GitHubRepo;
+import com.redcarepharmacy.model.GitHubRepo;
 
 import java.time.Duration;
 import java.time.ZonedDateTime;

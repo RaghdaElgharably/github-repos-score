@@ -1,8 +1,8 @@
-package com.redcareapotheke.service;
+package com.redcarepharmacy.service;
 
 
-import com.redcareapotheke.model.GitHubRepo;
-import com.redcareapotheke.util.ScoreCalculator;
+import com.redcarepharmacy.model.GitHubRepo;
+import com.redcarepharmacy.util.ScoreCalculator;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 

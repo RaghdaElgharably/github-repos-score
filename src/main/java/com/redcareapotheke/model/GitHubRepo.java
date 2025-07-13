@@ -1,4 +1,4 @@
-package com.redcareapotheke.model;
+package com.redcarepharmacy.model;
 
 
 import lombok.Getter;

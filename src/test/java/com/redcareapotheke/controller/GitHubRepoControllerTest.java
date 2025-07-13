@@ -1,7 +1,7 @@
-package com.redcareapotheke.controller;
+package com.redcarepharmacy.controller;
 
-import com.redcareapotheke.model.GitHubRepo;
-import com.redcareapotheke.service.GitHubRepoService;
+import com.redcarepharmacy.model.GitHubRepo;
+import com.redcarepharmacy.service.GitHubRepoService;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;

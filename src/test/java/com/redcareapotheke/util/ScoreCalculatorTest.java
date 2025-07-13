@@ -1,11 +1,11 @@
-package com.redcareapotheke.util;
+package com.redcarepharmacy.util;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import java.time.LocalDateTime;
 import java.time.ZonedDateTime;
 
-import com.redcareapotheke.model.GitHubRepo;
+import com.redcarepharmacy.model.GitHubRepo;
 import org.junit.jupiter.api.Test;
 
 public class ScoreCalculatorTest {
